@@ -1,0 +1,50 @@
+body {
+    background-color: rgb(247, 246, 243);
+}
+body {
+    background: radial-gradient(circle, red, black);
+    color: yellow;
+    font-family: 'Comic Sans MS', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .cinema {
+    background-color: black;
+    border: 10px solid yellow;
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 0 20px red;
+  }
+  
+  .video-container video {
+    width: 300px;
+    border: 5px solid white;
+    border-radius: 10px;
+    box-shadow: 0 0 20px cyan;
+  }
+  
+  .buttons {
+    margin-top: 20px;
+  }
+  
+  button {
+    background-color: crimson;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    box-shadow: 0 0 10px yellow;
+  }
+  
+  button:hover {
+    background-color: gold;
+    color: black;
+  }
